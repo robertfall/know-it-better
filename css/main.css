@@ -1,0 +1,163 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+body {
+  background-color: #F1F1F2;
+  color: #677289;
+  font-family: 'Nunito', sans-serif;;
+  padding-top: 10px;
+}
+
+hr {
+  border-top: 4px dashed #C4D93A;
+  margin: 20px 0;
+}
+
+.call-to-action {
+  background: #C4D93A;
+  padding: 10px;
+  border-radius: 8px;
+  color: white;
+  font-size: 2em;
+  margin-bottom: 5px;
+  display: inline-block;
+}
+
+h1 {
+  margin: 0;
+}
+
+.title {
+  font-size: 4em;
+  margin-top:0;
+}
+
+@media (max-width: 768px)  {
+  .title {
+    font-size: 3em;
+  }
+
+  .subtitle {
+    font-size: 1.5em;
+  }
+
+  .pricing-option {
+    margin-bottom: 15px;
+  }
+}
+
+.subtitle {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.content-block {
+  background-color: white;
+  padding: 0px 10px;
+  box-shadow: 1px 1px 5px -1px #aaa;
+}
+
+.logo-container {
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+}
+
+.pricing-options {
+}
+.pricing-option {
+  text-align: center;
+  padding: 10px 5px;
+}
+
+.pricing-option h3 {
+  margin: 0;
+  margin-bottom: 10px;
+  font-size: 1.9em;
+}
+
+.fact {
+	font-family: Georgia, Times, 'Times New Roman', serif;
+  font-style: italic;
+  font-size: 1.2em;
+  line-height: 2em;
+  position: relative;
+}
+
+.emphasis {
+  font-size: 3em;
+  line-height: 1.3;
+  font-family: 'Nunito', sans-serif;;
+  font-style: normal;
+}
+
+.fact:before {
+  position: absolute;
+  top: -1px;
+  content: " ";
+  border-bottom: 1px dotted #677289;
+  width: 90%;
+  height: 1px;
+  left: 5%;
+}
+
+.blurb {
+  text-align: center;
+	font-family: Georgia, Times, 'Times New Roman', serif;
+  margin-bottom: 20px;
+}
+.profile-image-wrapper{
+  padding: 10px;
+  border-radius: 150px;
+  position: absolute;
+  background: white;
+  left: 50%;
+  margin-left: -80px;
+  bottom: -100px;
+}
+
+.profile-image-wrapper img {
+  border-radius: 150px;
+}
+
+.profile-block {
+  margin: 15px 0 100px 0;
+  position: relative;
+  min-height: 200px;
+  padding: 10px;
+  padding-bottom: 65px;
+	font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+.profile-block h3 {
+  margin: 0;
+  text-align: center;
+}
+
+.profile-block h3 small {
+  font-style: italic;
+	font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+.profile-block p {
+  text-align: justify;
+}
+
+.spacer {
+  margin: 5px 0;
+}
+
+.times {
+  text-align: center;
+    font-size: 1.5em;
+    margin-top: 15px;
+}
+
+.times a {
+  text-decoration: underline;
+}
